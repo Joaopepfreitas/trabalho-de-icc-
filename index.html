@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="favicon.ico"image/x-icon">
+    <title>Git e Github</title>
+    <link rel="stylesheet" href="style.css">  
+    <p><center><img src="logo-git-png.png" alt=""><img src="logo-github-png.png" alt="Logo github"></center></p>
+    <p> <center><a href="video.html">Vídeo</a> <a href="audio.html">Áudio</a></center></p>
+    </head><h1 >Git e Github</h1>
+    <body><h2>O que é o Git e para que serve?</h2>
+    <p>GIT é a ferramenta que vai auxiliar o desenvolvedor a ter um histórico do seu processo de escrita de código. Por meio desse software, é possível visualizar as várias versões que o projeto já teve a partir de comandos, entender o que foi modificado e até reverter as alterações realizadas quando necessário.</p>
+    <p>Esse direcionamento de código-fonte garante o bom gerenciamento do projeto, dando controle total ao usuário para fazer e desfazer alterações sem tornar o processo confuso.</p>
+    <p>Abaixo, listaremos alguns comandos úteis para utilizar quando for trabalhar com o Github.</p>
+</div>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nome do Comando</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Exemplo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>init</td>
+            <td>Cria um novo repositório Git vazio na pasta atual.</td>
+            <td>git <mark>init</mark> </td>
+        </tr>
+        <tr>
+            <td>clone</td>
+            <td>Cria uma cópia local de um repositório remoto.</td>
+            <td>git <mark>clone</mark>  endereço_do_repositório_a_ser_clonado </td>
+        </tr>
+        <tr>
+            <td>branch</td>
+            <td>Cria, lista ou exclui ramificações (branches) no repositório.</td>
+            <td>git <mark>branch</mark> teste (cria uma branch chamada "teste")</td>
+        </tr>
+        <tr>
+            <td>checkout</td>
+            <td>Alterna entre branches, restaura arquivos modificados ou criar novas branches de desenvolvimento.</td>
+            <td>git <mark>checkout</mark>  teste (alterna para a branch "teste")</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td>Exibe o estado atual do repositório, mostrando arquivos modificados, adicionados, excluídos ou não rastreados.</td>
+            <td>git <mark>status</mark></td>
+        </tr>
+        <tr>
+            <td>diff</td>
+            <td>Mostra as diferenças entre os arquivos no diretório de trabalho e a área de preparação (staging area).</td>
+            <td>git <mark>diff</mark> nome_do_arquivo</td>
+        </tr>
+        <tr>
+            <td>add</td>
+            <td>Adiciona as alterações nos arquivos ao índice do Git, preparando-os para serem commitados posteriormente.</td>
+            <td>git <mark>add</mark> . (Adiciona todas as alterações que você fez no projeto.)</td>
+        </tr>
+        <tr>
+            <td>commit</td>
+            <td>Salva as alterações realizadas em um repositório como uma nova versão.</td>
+            <td>git <mark>commit</mark>  -m "Descrição do Commit"</td>
+        </tr>
+        <tr>
+            <td>push</td>
+            <td>Envia as alterações locais em um repositório para um repositório remoto, como o GitHub.</td>
+            <td>git <mark>push</mark> origin nome_da_branch</td>
+        </tr>
+        <tr>
+            <td>pull</td>
+            <td>Busca as alterações remotas e as mescla com a versão local do repositório.</td>
+            <td>git <mark>pull</mark> origin master</td>
+        </tr>
+        <tr>
+            <td>revert</td>
+            <td>Desfaz um ou mais commits anteriores, criando um novo commit que reverte as alterações introduzidas por esses commits.</td>
+            <td>git <mark>revert</mark> nome_do_commit</td>
+        </tr>
+        <tr>
+            <td>merge</td>
+            <td>Combina as alterações de diferentes branches em uma única branch.</td>
+            <td>git <mark>merge</mark> feature (Nota: Importante estar na branch main</td>
+        </tr>
+        <tr>
+            <td>stash</td>
+            <td>Salva temporariamente alterações não comprometidas.</td>
+            <td>git <mark>branch</mark>  add</td>
+        </tr>
+        <tr>
+            <td>rm</td>
+            <td>Remove arquivos do controle de versão do Git e do diretório de trabalho.</td>
+            <td>git <mark>rm</mark> nome_do_arquivo</td>
+        </tr>
+        <tr>
+            <td>config</td>
+            <td>Permite configurar as opções globais ou específicas do repositório do Git.</td>
+            <td>git <mark>config</mark> --global user.name "Seu Nome"</td>
+        </tr>
+        <tr>
+            <td>reset</td>
+            <td>Reverte as alterações em um repositório, desfazendo commits e reposicionando o HEAD e o branch atual.</td>
+            <td>git <mark>reset</mark> HEAD~1</td>
+        </tr>
+        <tr>
+            <td>remote</td>
+            <td>Gerencia e visualiza os repositórios remotos associados a um repositório local do Git.</td>
+            <td>git <mark>remote</mark> add origin https://github.com/seu-usuario/seu-repositorio.git </td>
+        </tr>
+        <tr>
+            <td>fetch</td>
+            <td>Baixa as alterações mais recentes do repositório remoto, mas não faz merge com o branch local.</td>
+            <td>git <mark>branch</mark>  add</td>
+        </tr>
+        <tr>
+            <td>show</td>
+            <td>Faz uma descrição de algum outro comando do Git</td>
+            <td>git <mark>fetch</mark> origin</td>
+        </tr>
+        <tr>
+            <td>help</td>
+            <td>Faz uma descrição de algum outro comando do Git</td>
+            <td>git <mark>help</mark> add</td>
+        </tr>
+        <tr>
+            <td>rebase</td>
+            <td>Reescreve o histórico do branch, movendo as alterações para uma nova base de ramificação.</td>
+            <td>git <mark>rebase</mark> main</td>
+        </tr>
+        <tr>
+            <td>blame</td>
+            <td>Exibe a autoria e a última alteração de cada linha de um arquivo específico.</td>
+            <td>git <mark>branch</mark>  add</td>
+        </tr>
+        <tr>
+            <td>tag</td>
+            <td>Cria, lista ou exclui tags (marcadores) em um repositório do Git.</td>
+            <td>git <mark>tag</mark> v1.0.0</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="container">
+    <div class="row">
+        <h2 class="card-title">Como fazer a configuração e o acesso ao repositório GitHub.</h2>
+        <hr>
+        <p class="card-text"> Para configurar e acessar o seu repositório do GitHub em seu computador é necessário seguir alguns passos muito simples: </p>
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                    Com o Git já instalado em sua máquina, abra o terminal e execute os seguintes comandos de configuração:
+                    <p><mark>git config --global user.name "Seu Nome"</mark></p>
+                    <p><mark>git config --global user.email seu-email@exemplo.com</mark></p>
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                No repositório recém-criado no GitHub, clique no botão "Code" (ou "Código") verde e copie o URL do repositório. Depois disso, execute o seguinte código:
+                <p><mark>git clone URL_DO_REPOSITÓRIO</mark></p>
+            </div>
+            </li>
+            
+        </ol>
+        Agora você pode criar, modificar e excluir arquivos dentro do diretório do repositório no seu computador.
+    </div>
+</div>
+    </table>
+    <p>      </p>
+    <p>       </p>
+
+    
+<small><b><i>Criado e administrado por João Pedro P. de Freitas e Carlos Augusto Regis Lorim</i></b></small>    
+   
+</body>
+</html>
