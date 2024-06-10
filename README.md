@@ -1,5 +1,7 @@
 # Tutorial Git: Entendendo os Comandos Básicos e Suas Aplicações
 
+https://carlos-lorim.github.io/trabalho-de-icc-/
+
 Este repositório contém um projeto em HTML desenvolvido com o propósito de explicar os comandos fundamentais do Git, bem como os motivos para utilizá-lo. O Git é um sistema de controle de versão distribuído amplamente utilizado na indústria de desenvolvimento de software. Compreender como utilizar o Git de forma eficaz é essencial para qualquer desenvolvedor.
 
 ## Sobre o Projeto
