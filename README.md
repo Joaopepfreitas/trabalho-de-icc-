@@ -36,5 +36,7 @@ Contribuições são bem-vindas! Se você encontrar algum erro, tiver sugestões
 
 Esperamos que este tutorial seja útil para você no seu aprendizado e prática do Git. Boa codificação!
 
+criadores: Carlos Augusto Regis Lorim 
+Joao Pedro Pereira de Freitas 
 ---
 
